@@ -54,7 +54,7 @@ public class Racao extends Produto {
 	public void visualizar() {
 		super.visualizar();
 		System.out.printf("Sabor: %s%n", this.sabor);
-		System.out.printf("Peso: %.2f%n", this.peso);
+		System.out.printf("Peso: %.1f%n", this.peso);
 		System.out.printf("Faixa Etária: %s%n", this.faixaEtaria);
 		System.out.printf("Porte: %s%n", this.porte);
 		

@@ -99,7 +99,7 @@ public abstract class Produto {
 		System.out.printf("Preço do produto: R$ %.2f%n", this.preco);
 		System.out.printf("Quantidade em Estoque: %d%n", this.estoque);
 		System.out.printf("Marca do produto: %s%n", this.marca);
-		System.out.printf("Tipo do produto: %d%n", tipo);
+		System.out.printf("Tipo do produto: %s%n", tipo);
 	}
 		
 		
